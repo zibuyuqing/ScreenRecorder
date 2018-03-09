@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="BassActivityTheme" parent="Theme.AppCompat.Light">
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- Attributes from support.v7.appcompat -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorControlNormal">@color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionModeBackground">@color/colorPrimary</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionModeCloseButtonStyle</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <!-- #endif -->
+    </style>
+
+    <style name="ActionModeCloseButtonStyle" parent="Base.TextAppearance.AppCompat.Widget.ActionMode.Title">
+        <item name="android:paddingStart">16dp</item>
+    </style>
+    <style name="NoDisplayActivity">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!--Toolbar 样式-->
+    <style name="ToolbarStyle">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+</resources>

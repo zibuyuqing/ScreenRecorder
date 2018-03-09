@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dimen_40dp"
+    android:layout_height="@dimen/dimen_76dp"
+    android:background="@drawable/bg_recorder_control_view"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/controller_head"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_4dp"
+        android:orientation="vertical" >
+        <ImageView
+            android:tint="@color/grey_light"
+            android:src="@drawable/ic_close"
+            android:id="@+id/iv_close_controller"
+            android:layout_marginTop="@dimen/dimen_4dp"
+            android:layout_width="@dimen/dimen_24dp"
+            android:layout_height="@dimen/dimen_24dp" />
+        <Chronometer
+            android:id="@+id/recorder_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dimen_4dp"
+            android:format="@string/timer_format"
+            android:gravity="center_vertical"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/font_small_10" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_record_switch_wrapper"
+        android:layout_width="@dimen/dimen_32dp"
+        android:layout_height="@dimen/dimen_32dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/dimen_4dp"
+        android:layout_marginBottom="@dimen/dimen_4dp"
+        android:background="@drawable/bg_circle_white"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_record_switch_start"
+            android:layout_width="@dimen/dimen_32dp"
+            android:layout_height="@dimen/dimen_32dp"
+            android:layout_gravity="center"
+            android:padding="@dimen/dimen_2dp"
+            android:src="@drawable/shape_switch_start" />
+
+        <ImageView
+            android:id="@+id/iv_record_switch_stop"
+            android:layout_width="@dimen/dimen_12dp"
+            android:layout_height="@dimen/dimen_12dp"
+            android:layout_gravity="center"
+            android:src="@drawable/shape_switch_stop"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+</RelativeLayout>

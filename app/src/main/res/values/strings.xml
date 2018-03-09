@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">录屏</string>
+    <string name="start">start</string>
+    <string name="timer_format">%s</string>
+    <string name="screen_record">屏幕录制</string>
+    <string name="empty_screen_records">无录屏视频</string>
+    <string name="recorder_params">录制参数</string>
+    <string name="resolution">分辨率</string>
+    <string name="resolution_default">1920*1080</string>
+    <string name="video_quality">视频画质</string>
+    <string name="video_quality_default">6Mbps</string>
+    <string name="frame_rate">帧数</string>
+    <string name="frame_rate_default">24fps</string>
+    <string name="audio_source">声音来源</string>
+    <string name="audio_source_default">无声音</string>
+    <string name="record_ext">录制选项</string>
+    <string name="stop_record_when_lock">锁屏时停止录屏</string>
+    <string name="show_touch_position">显示触摸点</string>
+
+    <string name="record_other_settings">其他设置</string>
+    <string name="side_step_when_no_operation">控制器无操作自动靠边</string>
+    <string name="show_countdown_pre_record">录制前显示倒计时</string>
+    <string name="open_video_files_when_stop">录制结束自动打开视频列表</string>
+    <string name="about_me">关于我</string>
+    <string name="storage_permission_denied">您拒绝了存储权限，功能无法正常使用，请允许</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="resolution_selection">
+        <item>@string/resolution_default</item>
+        <item>1280*720</item>
+        <item>800*480</item>
+    </string-array>
+    <string-array name="video_quality_selection">
+        <item>24Mbps</item>
+        <item>12Mbps</item>
+        <item>@string/video_quality_default</item>
+        <item>3Mbps</item>
+        <item>1Mbps</item>
+    </string-array>
+    <string-array name="video_frame_rate_selection">
+        <item>15fps</item>
+        <item>@string/frame_rate_default</item>
+        <item>30fps</item>
+    </string-array>
+    <string-array name="audio_source_selection">
+        <item>@string/audio_source_default</item>
+        <item>麦克风</item>
+    </string-array>
+</resources>

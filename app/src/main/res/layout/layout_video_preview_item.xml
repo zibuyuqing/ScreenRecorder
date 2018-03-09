@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:padding="@dimen/dimen_4dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:src="@drawable/test"
+        android:id="@+id/iv_video_thumbnail"
+        android:scaleType="centerCrop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:paddingEnd="@dimen/dimen_8dp"
+        android:paddingStart="@dimen/dimen_8dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_48dp"
+        android:layout_gravity="bottom"
+        android:background="@color/transparent_black_deep">
+
+        <TextView
+            android:id="@+id/tv_video_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_24dp"
+            android:text="00:01"
+            android:gravity="center|start"
+            android:textSize="@dimen/font_small_14"
+            android:paddingEnd="@dimen/dimen_8dp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:background="@color/white"
+            android:id="@+id/divider"
+            android:layout_width="1px"
+            android:layout_marginTop="@dimen/dimen_4dp"
+            android:layout_height="@dimen/dimen_16dp"
+            android:layout_toRightOf="@id/tv_video_duration" />
+        <TextView
+            android:gravity="center|start"
+            android:id="@+id/tv_file_size"
+            android:textSize="@dimen/font_small_14"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_24dp"
+            android:layout_toRightOf="@id/divider"
+            android:paddingEnd="@dimen/dimen_32dp"
+            android:layout_marginStart="@dimen/dimen_8dp"
+            android:maxLines="1"
+            android:text="500k"
+            android:textColor="@color/white" />
+        <TextView
+            android:id="@+id/tv_filename"
+            android:maxLines="1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_24dp"
+            android:gravity="center"
+            android:paddingEnd="@dimen/dimen_32dp"
+            android:layout_below="@id/tv_video_duration"
+            android:layout_alignParentBottom="true"
+            android:text="系统桌面"
+            android:textSize="@dimen/font_small_14"
+            android:textColor="@color/white" />
+        <ImageView
+            android:id="@+id/iv_play"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_play"
+            android:layout_marginEnd="@dimen/dimen_4dp"
+            android:layout_width="@dimen/dimen_16dp"
+            android:layout_height="@dimen/dimen_16dp" />
+        <CheckBox
+            android:visibility="gone"
+            android:id="@+id/cb_select"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zibuyuqing.screenrecorder.ui.MainActivity">
+    <include layout="@layout/layout_toolbar"></include>
+    <FrameLayout
+        android:layout_marginTop="@dimen/dimen_8dp"
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ProgressBar
+            android:id="@+id/pb_progress"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/dimen_48dp"
+            android:layout_height="@dimen/dimen_48dp" />
+        <include
+            android:id="@+id/empty_view"
+            android:visibility="gone"
+            layout="@layout/layout_empty_view"></include>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_record_video_list"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v7.widget.RecyclerView>
+        <include
+            android:visibility="invisible"
+            android:id="@+id/rl_bottom_bar"
+            layout="@layout/layout_bottom_bar"></include>
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_start_record"
+            android:layout_width="@dimen/dimen_48dp"
+            android:layout_height="@dimen/dimen_48dp"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/dimen_16dp"
+            android:src="@drawable/ic_video" />
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/recorder_params">
+        <ListPreference
+            android:key="key_resolution"
+            android:title="@string/resolution"
+            android:summary="@string/resolution_default"
+            android:defaultValue="@string/resolution_default"
+            android:entries="@array/resolution_selection"
+            android:entryValues="@array/resolution_selection">
+        </ListPreference>
+        <ListPreference
+            android:key="key_video_quality"
+            android:title="@string/video_quality"
+            android:defaultValue="@string/video_quality_default"
+            android:summary="@string/video_quality_default"
+            android:entries="@array/video_quality_selection"
+            android:entryValues="@array/video_quality_selection">
+        </ListPreference>
+        <ListPreference
+            android:key="key_frame_rate"
+            android:title="@string/frame_rate"
+            android:defaultValue="@string/frame_rate_default"
+            android:summary="@string/frame_rate_default"
+            android:entries="@array/video_frame_rate_selection"
+            android:entryValues="@array/video_frame_rate_selection">
+        </ListPreference>
+        <ListPreference
+            android:key="key_audio_source"
+            android:title="@string/audio_source"
+            android:summary="@string/audio_source_default"
+            android:defaultValue="@string/audio_source_default"
+            android:entries="@array/audio_source_selection"
+            android:entryValues="@array/audio_source_selection">
+        </ListPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/record_ext">
+        <SwitchPreference
+            android:key="key_stop_record_when_lock"
+            android:defaultValue="true"
+            android:title="@string/stop_record_when_lock"></SwitchPreference>
+        <SwitchPreference
+            android:key="key_show_touch_position"
+            android:title="@string/show_touch_position"></SwitchPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/record_other_settings">
+        <SwitchPreference
+            android:key="key_step_side_when_no_operation"
+            android:defaultValue="true"
+            android:title="@string/side_step_when_no_operation"></SwitchPreference>
+        <SwitchPreference
+            android:key="key_show_countdown_pre_record"
+            android:defaultValue="true"
+            android:title="@string/show_countdown_pre_record"></SwitchPreference>
+        <SwitchPreference
+            android:key="key_show_video_list_when_stop"
+            android:title="@string/open_video_files_when_stop">
+        </SwitchPreference>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv_record_screen"
+        android:tint="@color/grey"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_empty_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="@dimen/dimen_4dp"
+        android:textSize="@dimen/font_small_12"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/iv_record_screen"
+        android:text="@string/empty_screen_records"
+        android:textColor="@color/grey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

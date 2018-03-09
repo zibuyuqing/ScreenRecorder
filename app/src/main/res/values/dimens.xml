@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_96dp">96dp</dimen>
+    <dimen name="dimen_84dp">84dp</dimen>
+    <dimen name="dimen_76dp">76dp</dimen>
+    <dimen name="dimen_72dp">72dp</dimen>
+    <dimen name="dimen_68dp">68dp</dimen>
+    <dimen name="dimen_60dp">60dp</dimen>
+    <dimen name="dimen_48dp">48dp</dimen>
+    <dimen name="dimen_40dp">40dp</dimen>
+    <dimen name="dimen_32dp">32dp</dimen>
+    <dimen name="dimen_31dp">31dp</dimen>
+    <dimen name="dimen_28dp">28dp</dimen>
+    <dimen name="dimen_24dp">24dp</dimen>
+    <dimen name="dimen_18dp">18dp</dimen>
+    <dimen name="dimen_16dp">16dp</dimen>
+    <dimen name="dimen_14dp">14dp</dimen>
+    <dimen name="dimen_12dp">12dp</dimen>
+    <dimen name="dimen_8dp">8dp</dimen>
+    <dimen name="dimen_6dp">6dp</dimen>
+    <dimen name="dimen_4dp">4dp</dimen>
+    <dimen name="dimen_2dp">2dp</dimen>
+    <dimen name="dimen_1dp">1dp</dimen>
+
+
+    <!-- font size-->
+    <dimen name="font_large_64">64dp</dimen>
+    <dimen name="font_large_48">48dp</dimen>
+    <dimen name="font_normal_24">24dp</dimen>
+    <dimen name="font_normal_16">16dp</dimen>
+
+    <dimen name="font_small_14">14dp</dimen>
+    <dimen name="font_small_12">12dp</dimen>
+    <dimen name="font_small_10">10dp</dimen>
+</resources>
